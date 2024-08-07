@@ -47,6 +47,22 @@
             font-weight:900; 
             text-align: center; 
         }
+        .figura{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(191, 149, 231);
+            margin-right: 100px;
+            border-radius: 20px;
+
+        }
+        .intereses-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; 
+        }
+        .intereses-lista {
+            flex: 1; 
+        }
 </style>
 
 </head>
@@ -54,7 +70,7 @@
 <body>
     <header class = "container texto-blanco">
         <h1>Nicolás Clavijo Osorio</h1>
-        <p>Presentación CV</p>
+        <p>Presentación Hoja de Vida</p>
     </header>
 
     <main>
@@ -120,19 +136,22 @@
         </ul>
 
         <h2>Intereses o hobbies</h2>
-        <ul>
+        <div class="intereses-container">
+        <ul class="intereses-lista">
             <li>
-                Practicar y competir en tenis desde los 9 años.<strong>(2014)</strong>.
+                Practicar y competir en tenis desde los 9 años. <strong>(2014)</strong>.
                 <br>
                 Hago parte del equipo de la Universidad.
             </li>
             <li>Ver y analizar cine.</li>
             <li>Escuchar música.</li>
-            <li>Juegar videojuegos.</li>
             <li>Apreciar el deporte como el fútbol, tenis, F1 y basketball.</li>
         </ul>
 
+        <div class = "figura"></div>
+        </div>
     </main>
+
 
 </body>
 </html>
