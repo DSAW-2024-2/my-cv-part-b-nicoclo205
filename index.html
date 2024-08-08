@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi hoja de vida</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+    <style>
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+            background-color: rgb(227, 219, 219);
+            margin: 20px;
+        }
+        h3{
+            margin: 20px;
+            text-align: center;
+        }
+        ul{
+            list-style-type:circle;
+        }
+        li{
+            margin-bottom: 15px;
+            margin-right: 20px;
+        }
+
+        .container {
+            background: rgb(35, 32, 121); 
+            width: 100%;
+            border-bottom: 5px solid rgb(11, 2, 42);
+            border-bottom-left-radius: 15px; 
+            border-bottom-right-radius: 15px;
+            margin-top: -20px;
+        }
+        .texto-blanco {
+            color:aliceblue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            font-weight:900; 
+            text-align: center; 
+        }
+        .figura{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(35, 32, 121);
+            margin-top:85px;
+            margin-right: 20px;
+            border-radius: 40px;
+            position:static;
+        }
+        .figura-fondo{
+            width: 100%;
+            height: 21px;
+            background-color: rgb(35, 32, 121);
+            margin-bottom: -20px;
+            color:aliceblue;
+            text-align: end;
+            font-size: 13px;
+            font-weight: 700;
+            
+        }
+        .intereses-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px; 
+        }
+        .intereses-lista {
+            flex: 1; 
+        }
+</style>
+
+</head>
+
+<body>
+    <header class = "container texto-blanco">
+        <h1>Nicolás Clavijo Osorio</h1>
+        <p>Presentación Hoja de Vida</p>
+    </header>
+
+    <main>
+        
+        <h2>Información personal</h2>
+        <ul>
+            <li><strong>Dirección:</strong> Cra 56#167c-98</li>
+            <li><strong>Teléfono:</strong> 3157227086</li>
+            <li><strong>Correo:</strong> nicolasclos@unisabana.edu.co</li>
+        </ul>
+
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                Primaria: Colegio Abraham Lincoln. <strong></strong>
+            </li>
+            <li>
+                Bachillerato: colegio Abraham Lincoln. <strong>Generación 2023-1</strong>.
+            </li>
+            <li>
+                Estudiante de la Universidad de la Sabana. 
+                <strong>Programa:</strong> Ingeniería Informática.
+                Desde <strong>2023-2</strong>.
+            </li>
+        </ul>
+
+        <h2>Experiencia laboral</h2>
+        <h3>
+            Profesor de tenis
+            Academia CGD
+        </h3>
+        <p style="margin:20px;">Soy profesor de tenis los fines de semana desde principios del <b>2024</b>.</p>
+
+        <h3>Proyectos destacados</h3>
+        <ul>
+            <li>
+                <strong>Monografía:</strong>
+                Realicé un proyecto final de grado el cual relacionaba el NaCl con el concepto de tasa de germinación. 
+                <strong>Semestre 2023-2</strong>.
+            </li>
+            <li>
+                <strong>Grafo de la sabana:</strong> 
+                Se creó un grafo de la universidad de la sabana el cual indicaba las distancias entre 
+                edificios y la ruta más óptima para llegar a cada uno de ellos. <strong>Semestre 2024-1</strong>.
+            </li>
+            <li>
+                <strong>Proyecto POO:</strong> 
+                Se realizó un programa sobre reserva de vuelos de forma simulada. <strong>Semestre 2024-1</strong>.
+            </li>
+            <li>
+                <strong>Creación página web:</strong> 
+                Es un proyecto personal donde se creó una página web acerca 
+                de apuestas en el mundo del fútbol. <strong>2023-2024</strong>.
+            </li>
+        </ul>
+
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Se me facilita el aprendizaje de temas relacionados con las matemáticas.</li>
+            <li>Me considero una persona paciente, tolerante y buena para escuchar.</li>
+            <li>Idiomas: Ingles b2 de acuerdo con certificado IELTS.</li>
+            <li>Tengo bases en los lenguajes Java y Python.</li>
+        </ul>
+
+        <h2>Intereses o hobbies</h2>
+        <div class="intereses-container">
+        <ul class="intereses-lista">
+            <li>
+                Practicar y competir en tenis desde los 9 años. <strong>(2014)</strong>.
+                <br>
+                Hago parte del equipo de la Universidad.
+            </li>
+            <li>Ver y analizar cine.</li>
+            <li>Escuchar música.</li>
+            <li>Apreciar el deporte como el fútbol, tenis, F1 y basketball.</li>
+        </ul>
+
+        <div class = "figura"></div>
+
+        </div>
+        
+    </main>
+    <div class = "figura-fondo">Agosto 2024</div>
+
+</body>
+</html>
